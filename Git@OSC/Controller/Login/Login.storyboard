@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y2P-oU-DqI">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Controller-->
+        <scene sceneID="of9-I6-qrl">
+            <objects>
+                <tableViewController id="Y2P-oU-DqI" customClass="LoginController" customModule="Git_OSC" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="D2R-9m-4hi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="" id="L6t-b5-kaE">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="49" id="9Cv-cf-Mts">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Cv-cf-Mts" id="zyM-ve-psh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="kmP-Lg-1VZ" customClass="LoginTextField" customModule="Git_OSC">
+                                                    <rect key="frame" x="83" y="15.5" width="248" height="18"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="email"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="kmP-Lg-1VZ" firstAttribute="width" secondItem="zyM-ve-psh" secondAttribute="width" multiplier="0.6" id="98m-tt-bGf"/>
+                                                <constraint firstItem="kmP-Lg-1VZ" firstAttribute="centerX" secondItem="zyM-ve-psh" secondAttribute="centerX" id="L4L-gr-182"/>
+                                                <constraint firstItem="kmP-Lg-1VZ" firstAttribute="centerY" secondItem="zyM-ve-psh" secondAttribute="centerY" id="N4C-pM-XZD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="49" id="h4z-S9-hDe">
+                                        <rect key="frame" x="0.0" y="49" width="414" height="49"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h4z-S9-hDe" id="QQm-C4-Goo">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="8yH-UU-J3H" customClass="LoginTextField" customModule="Git_OSC">
+                                                    <rect key="frame" x="83" y="15.5" width="248" height="18"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="password"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8yH-UU-J3H" firstAttribute="width" secondItem="QQm-C4-Goo" secondAttribute="width" multiplier="0.6" id="6qA-Lm-oN1"/>
+                                                <constraint firstItem="8yH-UU-J3H" firstAttribute="centerX" secondItem="QQm-C4-Goo" secondAttribute="centerX" id="D8i-Wr-5NY"/>
+                                                <constraint firstItem="8yH-UU-J3H" firstAttribute="centerY" secondItem="QQm-C4-Goo" secondAttribute="centerY" id="o9N-oi-zPF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="db8-Py-7zt">
+                                        <rect key="frame" x="0.0" y="98" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="db8-Py-7zt" id="mhw-rm-gid">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFc-Lv-NxF" customClass="ThemeButton" customModule="Git_OSC" customModuleProvider="target">
+                                                    <rect key="frame" x="83" y="20" width="248" height="30"/>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="IFc-Lv-NxF" firstAttribute="centerX" secondItem="mhw-rm-gid" secondAttribute="centerX" id="2Jh-pO-CLe"/>
+                                                <constraint firstItem="IFc-Lv-NxF" firstAttribute="centerY" secondItem="mhw-rm-gid" secondAttribute="centerY" id="4J3-eb-myP"/>
+                                                <constraint firstItem="IFc-Lv-NxF" firstAttribute="width" secondItem="mhw-rm-gid" secondAttribute="width" multiplier="0.6" id="Amu-xG-scZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Y2P-oU-DqI" id="xIc-2R-6np"/>
+                            <outlet property="delegate" destination="Y2P-oU-DqI" id="VV0-nk-bHk"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="emailTextField" destination="kmP-Lg-1VZ" id="sOP-gg-rnK"/>
+                        <outlet property="loginButton" destination="IFc-Lv-NxF" id="h7f-e5-ac8"/>
+                        <outlet property="passwordTextField" destination="8yH-UU-J3H" id="b2T-xJ-qM8"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhg-6q-wIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-378" y="-123"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="email" width="41" height="45"/>
+        <image name="password" width="41" height="45"/>
+    </resources>
+</document>

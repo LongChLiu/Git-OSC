@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Git@OSC
+
+  Created by strayRed on 2018/11/9.
+  Copyright © 2018 Git@OSC. All rights reserved.
+*/
+
+"Projects" = "Projects";
+"Discover" = "Discover";
+"Mine" = "Mine";
+
+
+"Featured" = "Featured";
+"Popular"  = "Popular";
+"Latest"   = "Latest";
+"Events"   = "Events";
+
+"UnknownError" = "Unknown error";
+
+"UnknownFileType" = "Unknown file type";
+
+"UnsupportedFileType" = "This file is unsupported to preview";
+"NoMoreData"  = "There is no more data";
+"NoData"      = "no data";
+"NoPermission" = "Sorry, your don't have the permission to reade this content";
+"DefaultProjDescription" = "There is no description of this project at present";
+"DefaultLanguage" = "unknown";
+"DefaultReadme"   = "There is no readme file of this project at present";
+"FileError"   = "Fail to open the file";
+"ParseFailed" = "Fail to parse data";
+
+"ImageError" = "Fail to load the image";
+"RequestError" = "Request data failed";
+"LoginError" = "Login failed, please check your email and password";
+
+"Owner"  = "Owner";
+"Readme" = "Readme";
+"Code"   = "Code";
+"Issue"  = "Issue";
+"IssueDetails"  = "Issue Details";
+"Branch" = "Branch";
+"Login" = "Login";
+
+"ProjectsSearch" = "Projects Search";
+
+"JionDate" = "Join date";
+"Weibo"    = "Weibo";
+"Blog"     = "Blog";
+
+"Logout"   = "Logout";
+
+
+
+
+
+
+
+

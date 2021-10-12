@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NFx-F4-plJ">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Setting Controller-->
+        <scene sceneID="Mmc-K2-gkL">
+            <objects>
+                <tableViewController id="NFx-F4-plJ" customClass="SettingController" customModule="Git_OSC" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EYz-A0-5TK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="MZT-w0-9Az">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="S9I-lB-0XG">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S9I-lB-0XG" id="pLF-TN-wF6">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="清除缓存" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g87-Nr-Dz0">
+                                                    <rect key="frame" x="16" y="13" width="62" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="g87-Nr-Dz0" firstAttribute="centerY" secondItem="pLF-TN-wF6" secondAttribute="centerY" id="Ndr-9T-D8R"/>
+                                                <constraint firstItem="g87-Nr-Dz0" firstAttribute="leading" secondItem="pLF-TN-wF6" secondAttribute="leading" constant="16" id="umx-eW-nyc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="Ivh-5S-oWW">
+                                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ivh-5S-oWW" id="EnG-QB-5sI">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="夜间模式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1l-v7-a9R">
+                                                    <rect key="frame" x="16" y="13" width="62" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6lM-pK-0Pu">
+                                                    <rect key="frame" x="349" y="6.5" width="51" height="31"/>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Y1l-v7-a9R" firstAttribute="centerY" secondItem="EnG-QB-5sI" secondAttribute="centerY" id="Ght-m4-0Td"/>
+                                                <constraint firstItem="6lM-pK-0Pu" firstAttribute="centerY" secondItem="EnG-QB-5sI" secondAttribute="centerY" id="KjK-i9-XvY"/>
+                                                <constraint firstItem="Y1l-v7-a9R" firstAttribute="leading" secondItem="EnG-QB-5sI" secondAttribute="leading" constant="16" id="QRm-dX-EVn"/>
+                                                <constraint firstAttribute="trailing" secondItem="6lM-pK-0Pu" secondAttribute="trailing" constant="16" id="gDq-VT-BI9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="NFx-F4-plJ" id="ykV-Go-aEe"/>
+                            <outlet property="delegate" destination="NFx-F4-plJ" id="wKn-zO-RNe"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="nightModeSwitch" destination="6lM-pK-0Pu" id="3Ki-Eh-P0h"/>
+                        <outletCollection property="cells" destination="S9I-lB-0XG" collectionClass="NSMutableArray" id="cd8-FC-MDD"/>
+                        <outletCollection property="normalLabels" destination="g87-Nr-Dz0" collectionClass="NSMutableArray" id="b4R-7q-8ma"/>
+                        <outletCollection property="normalLabels" destination="Y1l-v7-a9R" collectionClass="NSMutableArray" id="alv-yH-RfH"/>
+                        <outletCollection property="cells" destination="Ivh-5S-oWW" collectionClass="NSMutableArray" id="gR0-CW-JjX"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qdp-rs-AuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-70" y="-340"/>
+        </scene>
+    </scenes>
+</document>

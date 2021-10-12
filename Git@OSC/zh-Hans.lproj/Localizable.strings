@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  Git@OSC
+
+  Created by strayRed on 2018/11/9.
+  Copyright © 2018 Git@OSC. All rights reserved.
+*/
+
+"Projects" = "项目";
+"Discover" = "发现";
+"Mine" = "我的";
+
+"Featured" = "推荐";
+"Popular"  = "热门";
+"Latest"   = "最近更新";
+
+"Events"   = "动态";
+
+"UnknownError" = "未知错误";
+
+"UnsupportedFileType" = "暂不支持该文件类型的预览";
+
+"UnknownFileType" = "未知的文件类型";
+"ImageError" = "载入图片失败";
+"FileError"   = "打开文件失败";
+
+"RequestError" = "请求数据失败";
+"LoginError" = "登录失败，请检查您的账号或者密码";
+
+"NoMoreData"  = "没有更多数据了";
+"NoData"      = "暂无数据";
+"NoPermission" = "对不起，您没有权限浏览该内容";
+
+"DefaultProjDescription" = "暂无项目介绍";
+"DefaultReadme" = "暂无Readme文件";
+
+"ParseFailed" = "解析数据失败";
+
+"DefaultLanguage" = "unknown";
+
+"Owner"  = "拥有者";
+"Readme" = "Readme";
+"Code"   = "代码";
+"Issue"  = "问题";
+"IssueDetails"  = "问题详情";
+"Branch" = "提交";
+"Login" = "登录";
+
+"ProjectsSearch" = "项目搜索";
+
+"JionDate" = "加入时间";
+"Weibo"    = "微博";
+"Blog"     = "博客";
+"Logout"   = "注销";
